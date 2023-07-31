@@ -1,0 +1,18 @@
+
+:root {
+    --main-bg-color: brown;
+    --f1: 'Noto Serif', serif;
+    --f2:'Open Sans', sans-serif;
+  }
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
