@@ -21,14 +21,16 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="util.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/util.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
     <title>Bloggin</title>
   </head>
   <body>
     <nav class="navigation max-width-1 m-auto">
       <div class="nav-left">
-        <span>Twt</span>
+        <a href="/">
+        <span>Twt</span></a>
 
         <ul>
           <li><a href="/">Home</a></li>
@@ -37,11 +39,87 @@
         </ul>
       </div>
       <div class="nav-right">
-        <input type="form-input" placeholder="Search this website" />
-        <button class="btn">Search</button>
+        <form action="search.html" method="get">
+        <input class="form-inp" type="text" name="Query" placeholder="Search this website" />
+        <button class="btn">Search</button></form>
       </div>
     </nav>
-    <div class="content max-width-1 m-auto"></div>
-    <div class="footer max-width-2 m-auto"></div>
+    <div class="content max-width-1 m-auto my-2">
+      <div class="content-left">
+        <h1> The heaven for bloggers</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. At in tellus integer feugiat scelerisque varius morbi enim. Felis eget velit aliquet sagittis id consectetur purus. Sodales neque sodales ut etiam sit. Feugiat vivamus at augue eget arcu dictum.</p>
+      </div>
+      <div class="content-right">
+        <img src="img/blog.png" alt="Typing icon">
+      </div>
+    </div>
+    <div class="max-width-1 m-auto"><hr class="line"></div>
+    <div class="home-articles max-width-1 m-auto font2">
+      <h2>Featured Articles</h2>
+      <div class="home-article">
+        <div class="year-box adjust-year">
+          <div><h3>Year</h3></div>
+          <div><input type="radio" name="year" id="">2022</div>
+          <div><input type="radio" name="year" id="">2023</div>
+        </div>
+        <div class="home-article-img">
+          <img src="img/article.png" alt="article">
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.</h3>
+          </a>
+          <p>Author Name</p>
+          <span>Date Published</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/article.png" alt="article">
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.</h3>
+          </a>
+          <p>Author Name</p>
+          <span>Date Published</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/article.png" alt="article">
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.</h3>
+          </a>
+          <p>Author Name</p>
+          <span>Date Published</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/article.png" alt="article">
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.</h3>
+          </a>
+          <p>Author Name</p>
+          <span>Date Published</span>
+        </div>
+      </div>
+      <div class="home-article">
+        <div class="home-article-img">
+          <img src="img/article.png" alt="article">
+        </div>
+        <div class="home-article-content font1">
+          <a href="/blogpost.html"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla.</h3>
+          </a>
+          <p>Author Name</p>
+          <span>Date Published</span>
+        </div>
+      </div>
+      
+    </div>
+    <div class="footer"><p> Copyright &copy; anybub</p>
+    <a href="https://www.vecteezy.com">Vector-Credits:Vecteezy</a></div>
   </body>
 </html>
