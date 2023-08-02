@@ -1,0 +1,27 @@
+.contact-content{
+    height: 100vh;
+    padding: 10px;
+    /* background-color: lightblue; */
+    margin-top: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url('../img/content-bg.png');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px 0px;
+    border: 2px solid darkgoldenrod;
+    font-family: var(--f2);
+}
