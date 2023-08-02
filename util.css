@@ -1,10 +1,18 @@
 
 :root {
-    --main-bg-color: brown;
+    --main-bg-color: #5C4033;
     --f1: 'Noto Serif', serif;
     --f2:'Open Sans', sans-serif;
-  }
-
+}
+.font1{
+    font-family: var(--f1);
+}
+.font2{
+    font-family: var(--f2);
+}
+.center{
+    text-align: center;
+}
 .max-width-1{
     max-width: 80vw;
 }
@@ -15,4 +23,14 @@
 
 .m-auto{
     margin: auto;
+}
+
+.mx-1{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
