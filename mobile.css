@@ -4,6 +4,10 @@
         margin-bottom: 23px;
 
     }
+    .logo img{
+        margin-top: 5px;
+        height: 40px;
+    }
     .nav-left{
         flex-direction: column;
         text-align: center;
