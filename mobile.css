@@ -20,6 +20,9 @@
         /* align-self: center; */
         
     }
+    .home-articles h2{
+        margin-top: 20px;
+    }
     .home-article-img{
         /* align-self: center; */
         text-align: center;
