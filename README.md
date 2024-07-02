@@ -4,7 +4,7 @@ This is a simple blog site created using HTML and CSS. The site allows users to 
 
 ## Demo
 
-You can view a live demo of the blog site [here][(https://anybub.github.io/Blog-Site/).
+You can view a live demo of the blog site [here][(https://anybub.github.io/Blog-Site/)].
 
 ## Features
 
